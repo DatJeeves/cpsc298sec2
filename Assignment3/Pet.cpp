@@ -1,10 +1,10 @@
 #include "Pet.h"
 
 Pet::Pet(){
-  string name = "Doggo";
-  int age = 1;
-  string type = "dog";
-  int weight = 1.0;
+  name = "Doggo";
+  age = 1;
+  type = "dog";
+  weight = 1.0;
 }
 
 Pet::Pet(string name, int age, string type, double weight){
@@ -15,16 +15,16 @@ Pet::Pet(string name, int age, string type, double weight){
 }
 
 //getters
-string Pet::getName() const{
+string Pet::getName(){
   return name;
 }
-int Pet::getAge() const{
+int Pet::getAge(){
   return age;
 }
-string Pet::getType() const{
+string Pet::getType(){
   return type;
 }
-double Pet::getWeight() const{
+double Pet::getWeight(){
   return weight;
 }
 

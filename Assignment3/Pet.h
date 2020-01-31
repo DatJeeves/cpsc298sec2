@@ -1,3 +1,5 @@
+#ifndef PET_H
+#define PET_H
 #include <string>
 #include <iostream>
 
@@ -31,3 +33,4 @@ class Pet{
     string type;
     double weight;
 };
+#endif
