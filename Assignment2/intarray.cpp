@@ -32,6 +32,7 @@ int main(int argc, char ** argv){
   for(int i = 0; i < 9; ++i){
     cout << "The value at index: " << i << " is: " << numberArray[i] << endl;
   }
+  //outputs a finished output
   cout<< "Done" << endl;
   return 0;
 }

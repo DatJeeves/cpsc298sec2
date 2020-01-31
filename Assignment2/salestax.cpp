@@ -11,7 +11,7 @@ float addTax(float& taxRate, float& cost){
   return cost;
 }
 
-
+//main method
 int main(int argc, char ** argv){
   //initialization
   float cost = 0;

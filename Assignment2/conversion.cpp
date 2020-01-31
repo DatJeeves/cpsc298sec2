@@ -10,16 +10,12 @@ float centimeters = 0;
 
 //input function
 void inputFunction(){
-  //user numberOfInputs
+  //user i/o for input
   cout << "Inut the number of feet you want to convert: ";
   cin >> numOfFeet;
-  //assignment
-  //this -> numOfFeet = numOfFeet;
-  //user input
   cout << "Inut the number of inches you want to convert: ";
   cin >> numOfInches;
-  //assignment
-  //this -> numOfInches = numOfInches;
+
 }
 
 //calculation
@@ -27,10 +23,6 @@ void calculation(float& feet, float& inches){
   //calculation conversion
   feet *= 12;
   inches += feet;
-  //assignment
-  //this -> centimeters = inches * 2.54;
-  //this -> meters = centimeters * .01;
-
   centimeters = inches * 2.54;
   meters = centimeters * .01;
 
