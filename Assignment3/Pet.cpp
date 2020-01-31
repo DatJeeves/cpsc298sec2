@@ -1,5 +1,6 @@
 #include "Pet.h"
 
+//default constructor
 Pet::Pet(){
   name = "Doggo";
   age = 1;
@@ -7,6 +8,7 @@ Pet::Pet(){
   weight = 1.0;
 }
 
+//constructor
 Pet::Pet(string name, int age, string type, double weight){
   this -> name = name;
   this -> age = age;

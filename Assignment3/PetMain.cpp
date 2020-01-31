@@ -7,7 +7,7 @@ int main(int argc, char **argv){
   //calls print function
   p1->print();
   p2->print();
-
+  //deletes pointers
   delete p1;
   delete p2;
 
