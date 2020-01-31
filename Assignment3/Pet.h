@@ -1,7 +1,6 @@
-#ifndef STOREITEM_H
-#define STOREITEM_H
 #include <string>
 #include <iostream>
+
 using namespace std;
 //setting up class Pet
 class Pet{
@@ -32,5 +31,3 @@ class Pet{
     string type;
     double weight;
 };
-
-#endif

@@ -7,7 +7,13 @@ Pet::Pet(){
   int weight = 1.0;
 }
 
-Pet::Pet(string name, int age, string type, double weight)
+Pet::Pet(string name, int age, string type, double weight){
+  this -> name = name;
+  this -> age = age;
+  this -> type = type;
+  this -> weight = weight;
+}
+
 //getters
 string Pet::getName() const{
   return name;
@@ -22,6 +28,7 @@ double Pet::getWeight() const{
   return weight;
 }
 
+
 //setters
 void Pet::setName(string name){
   this->name = name;
@@ -30,11 +37,12 @@ void Pet::setAge(int age){
   this->age = age;
 }
 void Pet::setType(string type){
-  if(type.toLower() == "dog" || type.toLower() == "cat"){
+  if(type == "dog" || type == "cat"||type =="Dog"||type == "Cat"){
     this->type = type;
   }
   else{
-    cout << "Pets can only be either dogs or cats"<<endl;
+    cout << "Pets can only be either dogs or cats."<<
+    " Did not assign."<<endl;
   }
 }
 void Pet::setWeight(double weight){
